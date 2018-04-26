@@ -7,8 +7,17 @@
   	<link rel="stylesheet" href="css/style.css"></link>
   </head>
   <body>
-    <div id='outer'>
-      <div id='track'></div>
+    <muse-menu title=''></muse-menu>
+    <div class='config'>
+      <label>Nickname: </label><input type="text" id='name'></input><br /><br />
+      <label>LoginKey: </label><input type="text" id='key'></input><br /><br />
+      <label>NewUserKey: </label><input type="text" id='newUser'></input><br /><br />
+      <label>Connector URL: </label><input type="text" id='cnxnURL'></input><br /><br />
+      <div id='saveCfg' class='button'>Save</div><br /><br />
+      <label>Message: </label><input type="text" id='msgTxt'></input><br /><br />
+      <div id='send' class='button'>Send</div><br /><br />
+      <div id='tester'></div>
+      <img id='test'></img>
     </div>
   </body>
 </html>
