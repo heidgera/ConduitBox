@@ -9,6 +9,8 @@ obtain(obtains, (saltHash, profiles, fs, uuidv4)=> {
 
   var userList = './.userList.json';
 
+  if (!appData.config.createCode) appData.config.createCode = 'default';
+
   var createUser = (deets)=> {
     var ret = { success: false };
     if (deets.key == saltHash.simpleHash(appData.config.createCode)) {

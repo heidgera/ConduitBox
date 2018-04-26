@@ -1,6 +1,6 @@
 #!/bin/bash
 
-REPO_NAME=template
+REPO_NAME=ConduitBox
 ACCOUNT=heidgera
 
 echo -e "\nInstalling node:"
